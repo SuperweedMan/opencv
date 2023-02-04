@@ -1,0 +1,710 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2a4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2a4d.dir/build.make CMakeFiles/cmTC_c2a4d.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2a4d.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -o CMakeFiles/cmTC_c2a4d.dir/src.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_c2a4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2a4d.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_c2a4d.dir/src.c.o  -o cmTC_c2a4d 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04911/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04911.dir/build.make CMakeFiles/cmTC_04911.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04911.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_04911.dir/src.cxx.o -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_04911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04911.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_04911.dir/src.cxx.o  -o cmTC_04911 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7eacc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7eacc.dir/build.make CMakeFiles/cmTC_7eacc.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7eacc.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_7eacc.dir/src.cxx.o -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_7eacc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eacc.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_7eacc.dir/src.cxx.o  -o cmTC_7eacc 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04c3e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04c3e.dir/build.make CMakeFiles/cmTC_04c3e.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04c3e.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_04c3e.dir/src.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_04c3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04c3e.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_04c3e.dir/src.c.o  -o cmTC_04c3e 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b60b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b60b.dir/build.make CMakeFiles/cmTC_9b60b.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b60b.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wsuggest-override -o CMakeFiles/cmTC_9b60b.dir/src.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_9b60b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b60b.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_9b60b.dir/src.c.o  -o cmTC_9b60b 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f50f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f50f2.dir/build.make CMakeFiles/cmTC_f50f2.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f50f2.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_f50f2.dir/src.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_f50f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f50f2.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_f50f2.dir/src.c.o  -o cmTC_f50f2 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12467/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12467.dir/build.make CMakeFiles/cmTC_12467.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12467.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_12467.dir/src.cxx.o -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_12467
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12467.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_12467.dir/src.cxx.o  -o cmTC_12467 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15310/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15310.dir/build.make CMakeFiles/cmTC_15310.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15310.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_15310.dir/src.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_15310
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15310.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_15310.dir/src.c.o  -o cmTC_15310 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e828/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e828.dir/build.make CMakeFiles/cmTC_5e828.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e828.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_5e828.dir/src.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_5e828
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e828.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_5e828.dir/src.c.o  -o cmTC_5e828 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16596/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16596.dir/build.make CMakeFiles/cmTC_16596.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16596.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_16596.dir/src.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking C executable cmTC_16596
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16596.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-parameter -Wno-sign-compare  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_16596.dir/src.c.o  -o cmTC_16596 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_505c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_505c5.dir/build.make CMakeFiles/cmTC_505c5.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_505c5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_505c5.dir/CheckIncludeFile.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+ #include <io.h>
+          ^~~~~~
+compilation terminated.
+CMakeFiles/cmTC_505c5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_505c5.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_505c5.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_505c5/fast' failed
+make: *** [cmTC_505c5/fast] Error 2
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7163/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7163.dir/build.make CMakeFiles/cmTC_b7163.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7163.dir/int8.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_b7163.dir/int8.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int8.c
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int8.c:23:22: error: ‘INT8’ undeclared here (not in a function); did you mean ‘INT8_C’?
+ #define SIZE (sizeof(INT8))
+                      ^
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int8.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_b7163.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b7163.dir/int8.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b7163.dir/int8.c.o] Error 1
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b7163/fast' failed
+make: *** [cmTC_b7163/fast] Error 2
+
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91337/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91337.dir/build.make CMakeFiles/cmTC_91337.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91337.dir/int16.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_91337.dir/int16.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int16.c
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int16.c:23:22: error: ‘INT16’ undeclared here (not in a function); did you mean ‘INT16_C’?
+ #define SIZE (sizeof(INT16))
+                      ^
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int16.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_91337.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_91337.dir/int16.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_91337.dir/int16.c.o] Error 1
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_91337/fast' failed
+make: *** [cmTC_91337/fast] Error 2
+
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc9b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc9b7.dir/build.make CMakeFiles/cmTC_cc9b7.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc9b7.dir/int32.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_cc9b7.dir/int32.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int32.c
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int32.c:23:22: error: ‘INT32’ undeclared here (not in a function); did you mean ‘INT32_C’?
+ #define SIZE (sizeof(INT32))
+                      ^
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int32.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_cc9b7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cc9b7.dir/int32.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_cc9b7.dir/int32.c.o] Error 1
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cc9b7/fast' failed
+make: *** [cmTC_cc9b7/fast] Error 2
+
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54724/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54724.dir/build.make CMakeFiles/cmTC_54724.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54724.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_54724.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54724
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54724.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_54724.dir/CheckFunctionExists.c.o  -o cmTC_54724 
+CMakeFiles/cmTC_54724.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_54724.dir/build.make:97: recipe for target 'cmTC_54724' failed
+make[1]: *** [cmTC_54724] Error 1
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_54724/fast' failed
+make: *** [cmTC_54724/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-array-parameter’'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-array-parameter'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1bfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1bfb.dir/build.make CMakeFiles/cmTC_b1bfb.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1bfb.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-misleading-indentation -Wno-implicit-fallthrough -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-array-parameter -o CMakeFiles/cmTC_b1bfb.dir/src.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-array-parameter’
+Linking C executable cmTC_b1bfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1bfb.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-misleading-indentation -Wno-implicit-fallthrough -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_b1bfb.dir/src.c.o  -o cmTC_b1bfb 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_519da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_519da.dir/build.make CMakeFiles/cmTC_519da.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_519da.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-missing-prototypes -o CMakeFiles/cmTC_519da.dir/src.cxx.o -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_519da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_519da.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_519da.dir/src.cxx.o  -o cmTC_519da 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-absolute-value’'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf85b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf85b.dir/build.make CMakeFiles/cmTC_cf85b.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf85b.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTC_cf85b.dir/src.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-absolute-value’
+Linking C executable cmTC_cf85b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf85b.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_cf85b.dir/src.c.o  -o cmTC_cf85b 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a794/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a794.dir/build.make CMakeFiles/cmTC_7a794.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7a794.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -o CMakeFiles/cmTC_7a794.dir/src.cxx.o -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_7a794
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a794.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_7a794.dir/src.cxx.o  -o cmTC_7a794 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a25bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a25bd.dir/build.make CMakeFiles/cmTC_a25bd.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a25bd.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a25bd.dir/CheckIncludeFile.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_a25bd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a25bd.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a25bd.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a25bd/fast' failed
+make: *** [cmTC_a25bd/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9377/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9377.dir/build.make CMakeFiles/cmTC_c9377.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9377.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c9377.dir/CheckIncludeFile.c.o   -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_c9377.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c9377.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c9377.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c9377/fast' failed
+make: *** [cmTC_c9377/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c280/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c280.dir/build.make CMakeFiles/cmTC_2c280.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c280.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_2c280.dir/src.cxx.o -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_2c280
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c280.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_2c280.dir/src.cxx.o  -o cmTC_2c280 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bff6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bff6b.dir/build.make CMakeFiles/cmTC_bff6b.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bff6b.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_bff6b.dir/src.cxx.o -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_bff6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bff6b.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_bff6b.dir/src.cxx.o  -o cmTC_bff6b 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dcb9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcb9a.dir/build.make CMakeFiles/cmTC_dcb9a.dir/build
+make[1]: Entering directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dcb9a.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-enum-compare-switch -o CMakeFiles/cmTC_dcb9a.dir/src.cxx.o -c /home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx
+/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_dcb9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcb9a.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_dcb9a.dir/src.cxx.o  -o cmTC_dcb9a 
+make[1]: Leaving directory '/home/wyz/Codes/Collector/3rdparty/opencv/build/ubuntu/CMakeFiles/CMakeTmp'
+
+===== END =====
+
